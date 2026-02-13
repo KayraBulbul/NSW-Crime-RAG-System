@@ -125,23 +125,6 @@ python evaluation_framework.py
 
 ## Development
 
-### Project Structure
-
-```
-├── app.py                      # Streamlit web application
-├── rag_pipeline.py             # RAG pipeline implementation
-├── evaluation_framework.py     # System evaluation metrics
-├── setup.py                    # Automated setup script
-├── test_setup.py              # Setup verification
-├── requirements.txt            # Python dependencies
-├── INSTALLATION.md             # Detailed installation guide
-├── data/                       # NSW crime data files
-│   ├── nsw_crime_data.json
-│   ├── rag_documents.json
-│   └── *.xlsx
-└── README.md                   # This file
-```
-
 ### Key Features Implemented
 
 - Document chunking and preprocessing
@@ -160,7 +143,7 @@ This RAG solution demonstrates practical applications for:
 - **Public**: Accessible crime statistics with natural language queries
 - **Law Enforcement**: Rapid information retrieval for operational planning
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -193,7 +176,7 @@ This project is provided as-is for demonstration purposes.
 
 Created as a portfolio project showcasing expertise in RAG systems, AI/ML integration, and data analysis.
 
-## 🔗 Technologies Demonstrated
+## Technologies Demonstrated
 
 - **Retrieval Augmented Generation (RAG)** architecture
 - **Large Language Model** integration (Llama2)
